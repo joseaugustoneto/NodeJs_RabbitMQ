@@ -1,0 +1,25 @@
+{
+  "name": "testnodejs",
+  "version": "1.0.0",
+  "description": "Test de conhecimento nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseaugustoneto/TestNodejs.git"
+  },
+  "author": "José Augusto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseaugustoneto/TestNodejs/issues"
+  },
+  "homepage": "https://github.com/joseaugustoneto/TestNodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
+}
