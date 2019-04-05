@@ -28,4 +28,9 @@ const populacao_db = [
   { uf: "TO", populacao: 1515126 }
 ]
 
-module.exports = populacao_db;
+function getEstadoPorSigla(uf) {
+  return populacao_db.filter((p) => p.uf.toLowerCase() === uf.toLowerCase())[0] || {};
+}
+
+
+module.exports = { getEstadoPorSigla };

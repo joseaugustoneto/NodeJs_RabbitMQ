@@ -4,8 +4,8 @@
   "description": "Test de conhecimento nodejs",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon serverNodejs.js",
+    "start:rabbit": "nodemon serverRabbitMQ.js",
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/joseaugustoneto/TestNodejs#readme",
   "dependencies": {
+    "amqplib": "^0.5.3",
     "cors": "^2.8.5",
     "express": "^4.16.4",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "uuid": "^3.3.2"
   }
 }

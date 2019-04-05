@@ -28,4 +28,8 @@ const estados_db = [
   { nome: "Tocantins", uf: "TO" }
 ]
 
-module.exports = estados_db;
+function buscaEstados() {
+  return estados_db;
+}
+
+module.exports = { buscaEstados };
